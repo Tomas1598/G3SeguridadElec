@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar a{
+    color: black;
+}
+
+.textoSeccionPrincipal1, .textoSeccionPrincipal2{
+    padding: 10px;
+    background: #3c9fd966;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccionPrincipal img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.secContacto{
+    display: flex;
+    flex-direction: column;
+}
+.secContacto img{
+    width: 100%;
+    height: 100%;
+}
+.tituloSecContacto{
+    background: #3c9fd966;
+    margin: 5px;
+}
+.formularioDeContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(126, 129, 134);
+}
+
+.formularioDeContacto div{
+    width: 50%;
+}
+.textoConsulta{
+    margin-top: 10px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(23, 23, 59);
+}
+footer a{
+    padding-right: 5px;
+    color: white;
+}
+.botonesContacto{
+    display: flex;
+    justify-content: center;
+}
+.botonesContacto input{
+    margin-right: 30px;
+    margin: 10px 10px;
+}
+
+@media (min-width: 1024px){
+
+    .seccionPrincipal{
+        display: flex;
+        flex-direction: column;
+    }
+    .seccionPrincipal img{
+        max-width: 700px;
+    }
+    .contenedor1, .contenedor2{
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+    .contenedor2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .textoSeccionPrincipal1, .textoSeccionPrincipal2{
+        height: 300px;
+        display: flex;
+      
+    }
+    .contenedorImagenContacto{
+        max-width: 700px;
+    }
+    .secContacto {
+        height: 75vh;
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloSecContacto{
+        background-color: white;
+    }
+    footer h4{
+        font-size: 2rem;
+    }
+}
+
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
