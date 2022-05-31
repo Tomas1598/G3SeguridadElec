@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar a{
+    color: black;
+}
+
+
+footer{
+    color: white;
+    background-color: rgb(23, 23, 59);
+}
+footer a{
+    padding-right: 5px;
+    color: white;
+}

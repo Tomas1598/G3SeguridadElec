@@ -1,0 +1,36 @@
+.secContacto{
+    display: flex;
+    flex-direction: column;
+}
+.secContacto img{
+    width: 100%;
+    height: 100%;
+}
+.tituloSecContacto{
+    background: #3c9fd966;
+    margin: 5px;
+}
+.formularioDeContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(126, 129, 134);
+}
+
+.formularioDeContacto div{
+    width: 50%;
+}
+.textoConsulta{
+    margin-top: 10px;
+}
+
+.botonesContacto{
+    display: flex;
+    justify-content: center;
+}
+.botonesContacto input{
+    margin-right: 30px;
+    margin: 10px 10px;
+}
