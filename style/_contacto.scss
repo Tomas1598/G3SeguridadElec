@@ -17,10 +17,9 @@
     margin: 5px;
     padding: 5px;
     background-color: rgb(126, 129, 134);
-}
-
-.formularioDeContacto div{
-    width: 50%;
+    div{
+        width: 50%;
+    }
 }
 .textoConsulta{
     margin-top: 10px;
@@ -29,8 +28,8 @@
 .botonesContacto{
     display: flex;
     justify-content: center;
-}
-.botonesContacto input{
+    input{
     margin-right: 30px;
     margin: 10px 10px;
+    }
 }

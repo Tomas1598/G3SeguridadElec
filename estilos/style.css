@@ -79,7 +79,7 @@ footer a {
   color: white;
 }
 
-.textoSeccionPrincipal1, .textoSeccionPrincipal2 {
+.textoSeccionPrincipal1, .textoSeccionPrincipal2, .textoSeccionAlternativo {
   padding: 10px;
   background: #3c9fd966;
   display: -webkit-box;
@@ -92,6 +92,12 @@ footer a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.textoSeccionAlternativo {
+  color: red;
+  height: 30px;
+  width: 70%;
 }
 
 .seccionPrincipal img {
@@ -132,7 +138,7 @@ footer a {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-  .textoSeccionPrincipal1, .textoSeccionPrincipal2 {
+  .textoSeccionPrincipal1, .textoSeccionPrincipal2, .textoSeccionAlternativo {
     height: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
